@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:gravity="center_horizontal"
-            android:text="12"
+            android:text="120"
             android:textSize="36dp" />
     </RelativeLayout>
 
@@ -54,8 +54,24 @@
             android:text="Click_me"
             android:visibility="invisible"
              />
+
+        <Button
+            android:id="@+id/won"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="YOU WON" 
+            />
+        
     </RelativeLayout>
 
-
+    <Button
+        android:id="@+id/lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="LOSER" />
 
 </RelativeLayout>
